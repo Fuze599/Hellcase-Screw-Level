@@ -1,0 +1,24 @@
+
+
+{
+  "manifest_version": 3,
+  "name": "Hellcase Screw Level",
+  "version": "1.0",
+  "description": "Want to know how much you get screwed on Hellcase? Here you go!",
+  "permissions": [
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://hellcase.com/*"], 
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+}
