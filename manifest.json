@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Hellcase Screw Level",
-  "version": "1.0",
-  "description": "Want to know how much you get screwed on Hellcase? Here you go!",
+  "name": "Hellcase Average Calculator",
+  "version": "1.01",
+  "description": "Want to know which Hellcase weapon crate is worth it? This addon is for you",
   "permissions": [
   ],
   "background": {
